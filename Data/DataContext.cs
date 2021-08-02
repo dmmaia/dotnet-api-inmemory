@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using test_api_dotnet.Models;
 namespace test_api_dotnet.Data
 {
 	public class DataContext : DbContext
@@ -9,6 +10,6 @@ namespace test_api_dotnet.Data
 		}
 
 		public DbSet<Product> Products {get; set;}
-		public SbSet<Category> Categories {get; set;}
+		public DbSet<Category> Categories {get; set;}
 	}
 }

@@ -1,4 +1,4 @@
-using System.Net;
+using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +32,7 @@ namespace test_api_dotnet.Controllers
 
         [HttpGet]
         [Route("categories/{id:int}")]
-        public async Task<ActionResult<Product>> GetByCategory([FromServices] DataContext context, int id)
+        public async Task<ActionResult<List<Product>>> GetByCategory([FromServices] DataContext context, int id)
         {
             var product = await context.Products.Include(x => x.Category)
                 .AsNoTracking()
@@ -55,7 +55,7 @@ namespace test_api_dotnet.Controllers
             }
             else
             {
-                return BasRequest(ModelState);
+                return BadRequest(ModelState);
             }
         }
     }

@@ -34,7 +34,7 @@ namespace test_api_dotnet.Controllers
             }
             else
             {
-                return BasRequest(ModelState);
+                return BadRequest(ModelState);
             }
         }
     }

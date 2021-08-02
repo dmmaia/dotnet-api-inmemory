@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj": {}
+    "D:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj": {
+    "D:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj",
+        "projectUniqueName": "D:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj",
         "projectName": "test-api-dotnet",
-        "projectPath": "d:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj",
+        "projectPath": "D:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\dotnet\\test-api-dotnet\\obj\\",
+        "outputPath": "D:\\Projects\\dotnet\\test-api-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -19,6 +19,9 @@
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
@@ -35,7 +38,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
