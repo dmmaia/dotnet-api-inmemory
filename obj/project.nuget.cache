@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4XfGW6EE7DXRJeWGxry7N4BrWLy5RyIS7GAi1uL4BN9bNW3BQu6+ItPgdlCVPTESWiONrZLZF1VUOTp01G7mQ==",
+  "success": false,
+  "projectFilePath": "d:\\Projects\\dotnet\\test-api-dotnet\\test-api-dotnet.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Não foi possível resolver 'Microsoft.EntityFrameworkCore.InMemory (>= 3.1.0)' para '.NETCoreApp,Version=v3.1'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
